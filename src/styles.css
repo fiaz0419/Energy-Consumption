@@ -1,12 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     background: #f1f1f1;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    color: #999999
+}
+
+.row {
+   margin-bottom: 20px;
 }
 
 #icon-container{
 
     z-index: 1;
-    margin-top: 30px;
+    margin-top: 1.6vw;
 }
 
 #mainNav{
@@ -19,17 +26,16 @@ body {
   }
 
 #content-wrapper{
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 25px;
+     padding-left: 9vw;
+    padding-right: 9vw;
   }
 
 
 .icon {
-    height: 70px;
+    height: 5.3vw;
     border-radius: 3px;
     text-align: -webkit-center;
-    padding-top: 25px;
+    padding-top: 2vw;
     color: #fff;
 }
 
@@ -42,7 +48,7 @@ body {
 
 
 .card [data-background-color="purple"] {
-  background: linear-gradient(60deg, #ab47bc, #8e24aa);
+  background: linear-gradient(60deg, #cd5ce0, #8e24aa);
   box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
 }
 .card [data-background-color="blue"] {
@@ -62,8 +68,8 @@ body {
   box-shadow: 0 12px 20px -10px rgba(244, 67, 54, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(244, 67, 54, 0.2);
 }
 .card [data-background-color="yellow"] {
-  background: linear-gradient(60deg, #FFEB3B, #FFC107);
-  box-shadow: 0 12px 20px -10px rgba(244, 67, 54, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(244, 67, 54, 0.2);
+  background: linear-gradient(60deg, #f9e219, #FFC107);
+  box-shadow: 0 12px 20px -10px rgba(255, 235, 59, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 235, 59, 0.2);
 }
 .card [data-background-color="black"] {
   background: linear-gradient(60deg, #709dca, #2C3E50);
@@ -80,4 +86,96 @@ body {
 
 .navbar-default {
    background: #D1d1d1;
+}
+
+.content-comp1-card{
+    width: 100%;
+    height: 19vw;
+    text-align: center;
+    background: #FFF;
+    border-radius: 3px;
+    border: 1px Solid #e7e7e7;
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0);
+}
+
+.content-comp1-card-holder{
+    margin: 0vw 1.4vw 0vw 1.4vw;
+    height: 100%;
+    
+}
+
+.comp1-card-header{
+    height: 20%;
+    border-bottom: 2px solid #f9f4f4;
+    line-height: 4vw;
+}
+
+.comp1-card-header-text {
+    font-size: 1.4vw;
+    height: 100%;
+    color: #545252;
+}
+
+.comp1-card-graph-container{
+    height: 42%;
+    border-bottom: 2px solid #f9f4f4;
+    justify-content: center;
+}
+
+.comp1-card-graph-container-inner{
+    justify-content: center;
+    width: 50%;
+    height: 100%;  
+    text-align: left;
+}
+
+.comp1-card-bottom1-inner span{
+    font-size : 0.8vw;
+    color : #999999;
+}
+
+.comp1-card-bottom1-inner{
+    justify-content: center;
+    width: 50%;
+    height: 100%;  
+    text-align: left;
+    color: #717171;
+    font-size: 1.2vw;
+    padding-top: 0.5vw;
+}
+
+.comp1-card-bottom1{
+    height: 22%;
+    border-bottom: 2px solid #f9f4f4;
+}
+
+.comp1-card-bottom2{
+    height: 16%;
+}
+
+
+.main-value {
+    font-weight: 300;
+    vertical-align: bottom;
+    padding-top: 1.6vw;
+    font-size: 2.1em;
+    color: #fb8c00;
+}
+
+.left{
+    float:left;
+}
+
+.right {
+    float : right;
+}
+
+.top{
+
+}
+
+.bottom{
+    font-size: 0.8vw;
+    color: #999999;
+
 }
