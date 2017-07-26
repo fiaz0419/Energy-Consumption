@@ -2,80 +2,92 @@
   <div class="col-md-4"> 
     <div class="content-comp1-card"> 
       <div class="content-comp1-card-holder">
-          <div class="comp1-card-header"> <span class="comp1-card-header-text"> Power Usage Now </span> </div>
+          <div class="comp1-card-header">  <div class="header-icon header-icon-power col-md-2"><i class="fa fa-plug fa-size-card" aria-hidden="true"></i> </div> <div class="comp1-card-header-text col-md-10"> Power Usage Now </div> </div>
           <div class="comp1-card-graph-container"> 
-            <div class="comp1-card-graph-container-inner left">1</div>
-            <div class="comp1-card-graph-container-inner right">
+            <div class="col-md-6 comp1-card-graph-container-inner ">
+              <div echarts [options]="chartOption" class="demo-chart"></div>
+            </div>
+            <div class="col-md-6 comp1-card-graph-container-inner ">
               <div class="main-value">303 W </div>
               <div class="second-value">27:10:00</div>
             </div> 
           </div>
           <div class="comp1-card-bottom1">  
-            <div class="comp1-card-bottom1-inner left"> 
+            <div class="col-md-6 comp1-card-bottom1-inner "> 
                 <div class="top"> 8.4 KWH </div> 
                 <div class="bottom"> So Far Today </div> 
             </div>
-            <div class="comp1-card-bottom1-inner right">
+            <div class="col-md-6 comp1-card-bottom1-inner ">
               <div class="top"> 16.7 KWH </div> 
               <div class="bottom"> Daily Avg </div> 
             </div>
             
           </div>
-          <div class="comp1-card-bottom2"> </div>
+          <div class="comp1-card-bottom2 col-md-12"> 
+            <span><i class="fa fa-caret-up" style="font-size:1.6vw;padding-top: 0.3vw;" aria-hidden="true"></i></span> <span style="vertical-align: 0.2vw;padding-left: 0.5vw;font-size: 0.8vw;">26 Above Yesterday</span>
+          </div>
 
       </div>
     </div>
   </div>
   <div class="col-md-4"> 
-    <div class="content-comp1-card">
+    <div class="content-comp1-card"> 
       <div class="content-comp1-card-holder">
-          <div class="comp1-card-header"> <span class="comp1-card-header-text"> Power Usage Now </span> </div>
+          <div class="comp1-card-header">  <div class="header-icon header-icon-power col-md-2"><i class="fa fa-usd fa-size-card" aria-hidden="true"></i> </div> <div class="comp1-card-header-text col-md-10"> Whats My Cost </div> </div>
           <div class="comp1-card-graph-container"> 
-            <div class="comp1-card-graph-container-inner left">1</div>
-            <div class="comp1-card-graph-container-inner right">
-              <div class="main-value">303 W </div>
+            <div class="col-md-6 comp1-card-graph-container-inner ">
+              <div echarts [options]="chartOption" class="demo-chart"></div>
+            </div>
+            <div class="col-md-6 comp1-card-graph-container-inner ">
+              <div class="main-value"> $131.70 </div>
               <div class="second-value">27:10:00</div>
             </div> 
           </div>
           <div class="comp1-card-bottom1">  
-            <div class="comp1-card-bottom1-inner left"> 
-                <div class="top"> 8.4 KWH </div> 
+            <div class="col-md-6 comp1-card-bottom1-inner "> 
+                <div class="top"> $0.50 </div> 
                 <div class="bottom"> So Far Today </div> 
             </div>
-            <div class="comp1-card-bottom1-inner right">
-              <div class="top"> 16.7 KWH </div> 
+            <div class="col-md-6 comp1-card-bottom1-inner ">
+              <div class="top"> $3.5 </div> 
               <div class="bottom"> Daily Avg </div> 
             </div>
             
           </div>
-          <div class="comp1-card-bottom2"> </div>
+          <div class="comp1-card-bottom2 col-md-12"> 
+            <span><i class="fa fa-caret-down" style="font-size:1.6vw;padding-top: 0.3vw;" aria-hidden="true"></i></span> <span style="vertical-align: 0.2vw;padding-left: 0.5vw;font-size: 0.8vw;">Likely to spend $6.39 less than last month</span>
+          </div>
 
       </div>
     </div>
   </div>
   <div class="col-md-4">
-    <div class="content-comp1-card">
+    <div class="content-comp1-card"> 
       <div class="content-comp1-card-holder">
-          <div class="comp1-card-header"> <span class="comp1-card-header-text"> Power Usage Now </span> </div>
+          <div class="comp1-card-header">  <div class="header-icon header-icon-power col-md-2"><i class="fa fa-plug fa-size-card" aria-hidden="true"></i> </div> <div class="comp1-card-header-text col-md-10"> Water Usage Now </div> </div>
           <div class="comp1-card-graph-container"> 
-            <div class="comp1-card-graph-container-inner left">1</div>
-            <div class="comp1-card-graph-container-inner right">
+            <div class="col-md-6 comp1-card-graph-container-inner ">
+              <div echarts [options]="chartOption" class="demo-chart"></div>
+            </div>
+            <div class="col-md-6 comp1-card-graph-container-inner ">
               <div class="main-value">303 W </div>
               <div class="second-value">27:10:00</div>
             </div> 
           </div>
           <div class="comp1-card-bottom1">  
-            <div class="comp1-card-bottom1-inner left"> 
+            <div class="col-md-6 comp1-card-bottom1-inner "> 
                 <div class="top"> 8.4 KWH </div> 
                 <div class="bottom"> So Far Today </div> 
             </div>
-            <div class="comp1-card-bottom1-inner right">
+            <div class="col-md-6 comp1-card-bottom1-inner ">
               <div class="top"> 16.7 KWH </div> 
               <div class="bottom"> Daily Avg </div> 
             </div>
             
           </div>
-          <div class="comp1-card-bottom2"> </div>
+          <div class="comp1-card-bottom2 col-md-12"> 
+            <span><i class="fa fa-caret-up" style="font-size:1.6vw;padding-top: 0.3vw;" aria-hidden="true"></i></span> <span style="vertical-align: 0.2vw;padding-left: 0.5vw;font-size: 0.8vw;">26 Above Yesterday</span>
+          </div>
 
       </div>
     </div>
@@ -83,7 +95,99 @@
 </div>
 
 <div class="row"> 
-  <div class="col-md-4"> <div class="content-comp1-card"> 4</div></div>
-  <div class="col-md-4"> <div class="content-comp1-card"> 5</div></div>
-  <div class="col-md-4"> <div class="content-comp1-card"> 6</div></div>
+  <div class="col-md-4">
+    <div class="content-comp1-card">
+      <div class="content-comp1-card-holder">
+          <div class="comp1-card-header">  <div class="header-icon header-icon-power col-md-2"><i class="fa fa-thermometer-full fa-size-card" aria-hidden="true"></i> </div> <div class="comp1-card-header-text col-md-10"> Temparature</div> </div>
+          <div class="comp1-card-graph-container"> 
+            <div class="col-md-6 comp1-card-graph-container-inner ">
+              <div class="weather-icon"><i class="wi wi-day-sunny"></i>
+                
+              </div>
+              <p class="weather-text"> sunny </p>
+            </div>
+            <div class="col-md-6 comp1-card-graph-container-inner">
+              <div class="comp1-card-graph-container-inner2">
+                <div class="temp-text-top"> indoor</div>
+                <div class="temp-text"> 78 F </div>
+                <div class="temp-text-top"> outdoor </div>
+                <div class="temp-text"> 78 F </div>
+              </div>
+            </div> 
+          </div>
+          <div class="comp1-card-bottom1">  
+            <div class="col-md-6 comp1-card-bottom1-inner "> 
+                <div class="top"> 68.5 F </div> 
+                <div class="bottom"> Average Today </div> 
+            </div>
+            <div class="col-md-6 comp1-card-bottom1-inner ">
+              <div class="top"> 62.5 F </div> 
+              <div class="bottom"> Avg this week</div> 
+            </div>
+            
+          </div>
+          <div class="comp1-card-bottom2 col-md-12"> 
+            <span><i class="fa fa-caret-up" style="font-size:1.6vw;padding-top: 0.3vw;" aria-hidden="true"></i></span> <span style="vertical-align: 0.2vw;padding-left: 0.5vw;font-size: 0.8vw;">26 Above Yesterday</span>
+          </div>
+
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-4">
+    <div class="content-comp1-card">
+      <div class="content-comp1-card-holder">
+          <div class="comp1-card-header">  <div class="header-icon header-icon-power col-md-2"><i class="fa fa-plug fa-size-card" aria-hidden="true"></i> </div> <div class="comp1-card-header-text col-md-10"> My Appliances</div> </div>
+          <div class="comp1-card-mid col-md-12">
+            <ul class="list-unstyled appliance-contianer"> 
+              <li class="apppliance-row"><i class="fa fa-dot-circle-o red" aria-hidden="true"></i> Heating & AC </li>
+              <li class="apppliance-row"><i class="fa fa-dot-circle-o red" aria-hidden="true"></i> Always On </li>
+              <li class="apppliance-row"><i class="fa fa-dot-circle-o red" aria-hidden="true"></i> Lights  </li>
+              <li class="apppliance-row"><i class="fa fa-dot-circle-o green" aria-hidden="true"></i> Water Heater </li>
+              <li class="apppliance-row"><i class="fa fa-dot-circle-o green" aria-hidden="true"></i> Refrigeration </li>
+              <li class="apppliance-row"><i class="fa fa-dot-circle-o red" aria-hidden="true"></i> Whater and Septic </li>
+              <li class="apppliance-row"><i class="fa fa-dot-circle-o green" aria-hidden="true"></i> EV Charge </li>
+              <li class="apppliance-row"><i class="fa fa-dot-circle-o red" aria-hidden="true"></i> Others </li>
+            </ul>
+          </div>
+          <div class="comp1-card-bottom2 col-md-12"> 
+            <span><i class="fa fa-caret-up" style="font-size:1.6vw;padding-top: 0.3vw;" aria-hidden="true"></i></span> <span style="vertical-align: 0.2vw;padding-left: 0.5vw;font-size: 0.8vw;">26 Above Yesterday</span>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="content-comp1-card">
+      <div class="content-comp1-card-holder">
+          <div class="comp1-card-header">  <div class="header-icon header-icon-power col-md-2"><i class="fa fa-plug fa-size-card" aria-hidden="true"></i> </div> <div class="comp1-card-header-text col-md-10"> Carbon Footage Print </div> </div>
+          <div class="comp1-card-graph-container"> 
+            <div class="col-md-6 comp1-card-graph-container-inner ">
+              <img class="coal-img" src="/assets/images/coal.png" alt="">
+            </div>
+            <div class="col-md-6 comp1-card-graph-container-inner ">
+              <div class="carbon1">Equivalent to</div>
+              <div class="carbon2">303</div>
+              <div class="carbon3">Sacks of coal Till Date</div>
+            </div> 
+          </div>
+          <div class="comp1-card-bottom1">  
+            <div class="col-md-6 comp1-card-bottom1-inner "> 
+                <div class="top"> 8.4 KWH </div> 
+                <div class="bottom"> So Far Today </div> 
+            </div>
+            <div class="col-md-6 comp1-card-bottom1-inner ">
+              <div class="top"> 16.7 KWH </div> 
+              <div class="bottom"> Daily Avg </div> 
+            </div>
+            
+          </div>
+          <div class="comp1-card-bottom2 col-md-12"> 
+            <span><i class="fa fa-caret-up" style="font-size:1.6vw;padding-top: 0.3vw;" aria-hidden="true"></i></span> <span style="vertical-align: 0.2vw;padding-left: 0.5vw;font-size: 0.8vw;">26 Above Yesterday</span>
+          </div>
+
+      </div>
+    </div>
+  </div>
 </div>

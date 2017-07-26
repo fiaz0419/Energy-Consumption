@@ -26,8 +26,8 @@ body {
   }
 
 #content-wrapper{
-     padding-left: 9vw;
-    padding-right: 9vw;
+     padding-left: 13vw;
+    padding-right: 13vw;
   }
 
 
@@ -90,7 +90,7 @@ body {
 
 .content-comp1-card{
     width: 100%;
-    height: 19vw;
+    height: 18vw;
     text-align: center;
     background: #FFF;
     border-radius: 3px;
@@ -105,19 +105,21 @@ body {
 }
 
 .comp1-card-header{
-    height: 20%;
+    height: 18%;
     border-bottom: 2px solid #f9f4f4;
-    line-height: 4vw;
+    line-height: 3.5vw;
 }
 
 .comp1-card-header-text {
     font-size: 1.4vw;
     height: 100%;
-    color: #545252;
+    color: #717171;
+    margin-left: -15px;
+    text-align: left;
 }
 
 .comp1-card-graph-container{
-    height: 42%;
+    height: 46%;
     border-bottom: 2px solid #f9f4f4;
     justify-content: center;
 }
@@ -127,6 +129,16 @@ body {
     width: 50%;
     height: 100%;  
     text-align: left;
+}
+
+.comp1-card-graph-container-inner2 {
+    padding: 0.2vw 0vw 0.2vw 0vw;
+}
+
+.comp1-card-mid {
+    height: 68%;
+    border-bottom: 2px solid #f9f4f4;
+    padding-top: 0.3vw;
 }
 
 .comp1-card-bottom1-inner span{
@@ -140,7 +152,7 @@ body {
     height: 100%;  
     text-align: left;
     color: #717171;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     padding-top: 0.5vw;
 }
 
@@ -150,14 +162,15 @@ body {
 }
 
 .comp1-card-bottom2{
-    height: 16%;
+    height: 18%;
+    text-align: left;
 }
 
 
 .main-value {
     font-weight: 300;
     vertical-align: bottom;
-    padding-top: 1.6vw;
+    padding-top: 1.9vw;
     font-size: 2.1em;
     color: #fb8c00;
 }
@@ -177,5 +190,110 @@ body {
 .bottom{
     font-size: 0.8vw;
     color: #999999;
+
+}
+
+
+.donut-chart {
+ width: 150px;
+
+}
+
+.header-icon{
+    height: 100%;
+    padding: 0px 0px 0px 5px;
+    text-align: left;
+}
+
+.header-icon-power{
+    padding-top: 3px;
+}
+
+.fa-size-card{
+    font-size: 1.3vw;
+    border: 1px Solid rgba(204, 204, 204, 0.49);
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    /* color: #FFF; */
+    background-color:rgba(204, 204, 204, 0.49);
+    border-radius: 50%;
+    
+}
+
+.demo-chart {
+  height: 9vw;
+  width: 9vw;
+  padding-top: 10px;
+}
+
+.carbon1{
+    padding-top: 6px;
+}
+
+.carbon2 {
+    font-weight: 300;
+    vertical-align: bottom;
+    font-size: 2.1em;
+    color: #fb8c00;
+}
+
+.carbon3{
+
+}
+
+.coal-img {
+    margin: 10px;    
+}
+
+.temp-text{
+    text-align: left;
+    color: #717171;
+    font-size: 1.8em;
+}
+
+.weather-icon{
+    font-size: 4.3vw;
+    color: #fb8c00;
+    text-align: left;
+    padding-left: 1vw;
+}
+
+.weather-text{
+        text-align: left;
+    padding-left: 2.1vw;
+}
+
+li.apppliance-row {
+    text-align: left;
+}
+
+i.fa.fa-dot-circle-o.red {
+    color: red;
+}
+
+i.fa.fa-dot-circle-o.green{
+    color: green;
+}
+
+
+.panel-header{
+    font-size: 1.6vw;
+    text-align: left;
+    border-bottom: 1px Solid #ccc;
+}
+
+.content-comprest-card{
+    width: 100%;
+    text-align: center;
+    background: #FFF;
+    border-radius: 3px;
+    border: 1px Solid #e7e7e7;
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0);
+}
+
+.chart-container{
+   
 
 }

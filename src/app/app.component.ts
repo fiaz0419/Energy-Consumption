@@ -10,13 +10,11 @@ declare var $ : any;
 })
 export class AppComponent implements OnInit{
   title = 'Fayaz';
-  constructor(){ }
+
+   constructor(){ }
 
   ngOnInit() {
-    console.log('hi');
-    $('.cbtn').click(function(){
-       console.log('cliked');
-    })
+    
   }
 
 
