@@ -1,0 +1,48 @@
+<div class="row"> 
+  <div class="col-md-12 content-comprest-card"> 
+      <div class="row">
+        <div class="col-md-12 panel-header">
+          <div class="col-md-7 panel-heading">Power Usage Now</div>
+          <div class="col-md-2"> 
+            <div> 0.6kWh </div> 
+            <div style="font-size: 11px;"> ALWAYS ON</div>
+          </div>
+          <div class="col-md-3">
+            <div> 10.91kWh </div> 
+            <div style="font-size: 11px;"> HIGHEST CONSUMPTION TODAY</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <input type="text" class="form-control" placeholder="Search for...">
+        </div>
+        <div class="col-md-2">
+          <input type="text" class="form-control" placeholder="Search for...">
+        </div>
+        <div class="col-md-8" style="text-align: right;">
+          <button type="button" class="btn btn-primary">Hourly</button>
+          <button type="button" class="btn btn-secondary">Daily</button>
+          <button type="button" class="btn btn-secondary">Weekly</button>
+          <button type="button" class="btn btn-secondary">Monthly</button>
+          <button type="button" class="btn btn-secondary">Yearly</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div  class="chart-container"> 
+            <canvas baseChart
+            [datasets]="barChartData"
+            [labels]="barChartLabels"
+            [options]="barChartOptions"
+            [legend]="barChartLegend"
+            [chartType]="barChartType">
+            </canvas>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<a name="" id="" class="btn btn-primary|secondary|success|info|warning|danger" href="#" role="button"></a>
+
