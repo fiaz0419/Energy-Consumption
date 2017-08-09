@@ -6,15 +6,15 @@ import { AngularEchartsModule } from 'ngx-echarts';
 import { ChartsModule } from 'ng2-charts';
 
 import { AppComponent } from './app.component';
-import { Comp1Component } from './components/comp1/comp1.component';
-import { Comp2Component } from './components/comp2/comp2.component';
+import { dashboardComponent } from './components/dashboard/dashboard.component';
+import { powerComponent } from './components/power/power.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    Comp1Component,
-    Comp2Component
+    dashboardComponent,
+    powerComponent
     
   ],
   imports: [
